@@ -2,7 +2,6 @@
 layout: default
 title: Project Documentation
 parent: "A4: Agent-Based Modeling for Surface Panelization"
-grand_parent: Portfolio
 nav_order: 2
 nav_exclude: false
 search_exclude: false
@@ -10,9 +9,9 @@ search_exclude: false
 
 # Assignment 4: Agent-Based Modeling for Surface Panelization
 
-![Example Structural Panelization](images/structural_tessellation.jpg)
+[View on GitHub]({{ site.github.repository_url }})
 
----
+![Example Structural Panelization](images/structural_tessellation.jpg)
 
 ## Objective
 
@@ -23,18 +22,19 @@ Your implementation must incorporate **at least two types of geometric signals**
 ---
 
 ## Repository Structure
-```
-Assignment4/
-├── BRIEF.md                # Assignment handout (this file)
-├── README.md               # Documentation with pseudo-code and explanations
-├── TEMPLATE.md             # Minimal documentation template
-├── agent_panelization.gh   # Your grasshopper definition
-├── surface_generator.py    # Python script to generate a complex surface using a numpy array generated with a continuous function
-├── agent_builder.py        # Python script used in defining and initializing agents
-├── agent_simulator.py      # Python script used in simulating agent behaviors
-├── (additional scripts)    # Any additional modules for field generation, panelization, analysis, or visualization
-├── images/
-│   └── (Output Images)
-```
 
+```
+A4/
+├── index.md                    # Do not edit front matter or content
+├── README.md                   # Project documentation; Keep front matter, replace the rest with your project documentation
+├── BRIEF.md                    # Assignment brief; Do not edit front matter or content
+├── agent_panelization.gh       # Your grasshopper definition
+├── surface_generator.py        # Your surface_generator implementation
+├── agent_builder.py            # Your agent_builder implementation
+├── agent_simulator.py          # Your agent_simulator implementation
+├── ...                         # Any additional implementation
+└── images/                     # Add diagram, intermediary, and final images here
+    ├── agent_based.png         # Assignment brief image; Do not delete
+    └── ...
+```
 ---

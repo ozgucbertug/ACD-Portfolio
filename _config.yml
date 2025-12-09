@@ -1,8 +1,9 @@
-title: Your Name
-description: ACD-E25 Portfolio
-color_scheme: light
+title: Your Name # EDIT THIS FIELD
+color_scheme: light #OPTIONAL: "light" or "dark"
 
 # Do not modify parameters below:
+description: ACD-E25 Portfolio
+
 remote_theme: just-the-docs/just-the-docs
 baseurl: "/ACD-Portfolio"
 

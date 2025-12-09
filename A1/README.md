@@ -2,7 +2,6 @@
 layout: default
 title: Project Documentation
 parent: "A1: NumPy Array Manipulation for 2D Pattern Generation"
-grand_parent: Portfolio
 nav_order: 2
 nav_exclude: false
 search_exclude: false
@@ -10,27 +9,27 @@ search_exclude: false
 
 # Assignment 1: NumPy Array Manipulation for 2D Pattern Generation
 
-This repository contains the starter materials for **Assignment 1: NumPy Array Manipulation for 2D Pattern Generation**.
+[View on GitHub]({{ site.github.repository_url }})
 
----
+![Example Image](images/perlin_moire.png)
 
-## Documents
+## Objective
 
-- **Assignment Brief:** See [BRIEF.md](BRIEF.md) for the full description, tasks, evaluation, and resources.
-- **Write-up Template:** Use [TEMPLATE.md](TEMPLATE.md) to structure your final `README.md` file in your submission (pseudo-code, technical explanation, results, references).
+The goal of this assignment is to create a Python program using NumPy to manipulate a 2-dimensional array and transform a blank canvas into a patterned image. You are asked apply various array operations, introduce randomness, and work with RGB channels to produce full-color images.
 
 ---
 
 ## Repository structure
 
 ```
-Assignment1/
-├── README.md                  ← update this file with your assignment write-up
-├── BRIEF.md                   ← assignment specification (do not edit)
-├── TEMPLATE.md                ← write-up structure to follow
-├── pattern_generator.py       ← your code implementation
-└── images/
-│   └── (Your generated images go here)
+A1/
+├── index.md                    # Do not edit front matter or content
+├── README.md                   # Project documentation; Keep front matter, replace the rest with your project documentation
+├── BRIEF.md                    # Assignment brief; Do not edit front matter or content
+├── pattern_generator.py        # Your code implementation
+└── images/                     # Add diagram, intermediary, and final images here
+    ├── perlin_moire.png        # Assignment brief image; Do not delete
+    └── ...
 ```
 
 ---
